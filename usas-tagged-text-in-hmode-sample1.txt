@@ -1,0 +1,38 @@
+s001 :: and_Z5 the_Z5 result_A2.2 was_A3+ to_Z5 be_A3+ the_Z5 growth_N3.2+/A2.1 of_Z5 organized_S7.1+ and_Z5 mass-membership_Z99 political_G1.2[i1.2.1 parties_G1.2[i1.2.2 ._PUNC
+s002 ::  I_Z8mf 'd_A7+ like_E2+ to_Z5 see_X3.4 some_N5 growth_N3.2+/A2.1 myself_Z8mf I_Z8mf ca_A7+ n't_Z6 afford_I1.1 to_Z5 wait_T1.3 forty_N1 years_T1.3 ._PUNC
+s003 ::  those_Z5 ''test_Z99 tube''_Z99 characteristics_O4.1 which_Z8 correlate_A6.1+ with_Z5 uncontrolled_S7.1- growth_N3.2+/A2.1 and_Z5 spread_F1 of_Z5 tumour_B2- cells_B1 within_Z5 the_Z5 whole_N5.1+ body_B1 ._PUNC
+s004 ::  There_Z5 is_A3+ a_Z5 more_A13.3 significant_A11.1+ difference_A6.1- in_Z5 population_S2/N5++[i2.2.1 growth_S2/N5++[i2.2.2 ._PUNC
+s005 ::  Trade_I2.2 imbalances_A6.1- within_Z5 Europe_Z2 are_A3+ a_Z5 constraint_A1.7+ on_Z5 growth_N3.2+/A2.1 throughout_Z5 Europe_Z2 ._PUNC
+s006 ::  
+s007 ::  when_Z5 old_T3+ growth_N3.2+/A2.1 is_A3+ renewed_T2+/A2.1 and_Z5 new_T3- shoots_K5.1 flourish_X9.2+ ?_PUNC
+s008 ::  the_Z5 refugees_M1/S2mf will_T1.1.3 enhance_A5.1+/A2.1 productivity_I2.1/N5+ and_Z5 economic_I1.3- growth_N3.2+/A2.1 ._PUNC
+s009 ::  a_Z5 discussion_Q2.1 of_Z5 the_Z5 motivations_A2.2 that_Z8 lie_A5.2- behind_Z5 the_Z5 growth_N3.2+/A2.1 of_Z5 the_Z5 field_F4 in_Z5 recent_T3- years_T1.3 ._PUNC
+s010 ::  Are_A3+ there_Z5 any_N5 characteristic_A6.2+ changes_A2.1+ in_Z5 a_Z5 tissue_B1 which_Z8 precede_N4 the_Z5 growth_N3.2+/A2.1 of_Z5 cancer_B2- ?_PUNC
+s011 ::  The_Z5 growth_N3.2+/A2.1 is_A3+ in_Z5[i3.3.1 terms_Z5[i3.3.2 of_Z5[i3.3.3 speed_N3.8+ ,_PUNC medium_Q4 ,_PUNC integration_A1.8+ ,_PUNC numbers_N5 ,_PUNC and_Z5 area_M7 ._PUNC
+s012 ::  A_Z5 problem_A12- for_Z5 many_N5+ parties_S1.1.3+ of_Z5 the_Z5 left_M6 in_Z5 the_Z5 era_T1.3 of_Z5 slow_N3.8- growth_N3.2+/A2.1 was_A3+ to_Z5 reconcile_A6.1 high_N3.7+ public_S5+ spending_I1.2 and_Z5 greater_A5.1++ social_S1.1.1 and_Z5 economic_I1.3- equality_A6.1+ ._PUNC
+s013 ::  in_Z5 West_Z2[i5.2.1 Germany_Z2[i5.2.2 and_Z5 Japan_Z2 ,_PUNC growth_N3.2+/A2.1 has_Z5 slowed_N3.8- and_Z5 is_Z5 slowing_N3.8- ._PUNC
+s014 ::  great_A5.1+ problems_A12- to_Z5 solve_X9.2+ ,_PUNC such_Z5[i6.2.1 as_Z5[i6.2.2 those_Z8 of_Z5 growth_N3.2+/A2.1 ,_PUNC possible_A7+ economic_I1.3- breakdown_X9.2- or_Z5 the_Z5 distribution_A9- of_Z5 incomes_I1.1 ._PUNC
+s015 ::  Prediction_Q2.2/T1.1.3 of_Z5 faster_N3.8++ population_S2/N5++[i7.2.1 growth_S2/N5++[i7.2.2 ._PUNC
+s016 ::  the_Z5 nation_G1.1c has_Z5 experienced_A2.1+/A3+ industrialization_I4 ,_PUNC the_Z5 advent_S9/T1.3 of_Z5 democracy_G1.2 ,_PUNC and_Z5 the_Z5 introduction_T2+ and_Z5 growth_N3.2+/A2.1 of_Z5 the_Z5 welfare_G1.1/S8+[i8.2.1 state_G1.1/S8+[i8.2.2 ._PUNC
+s017 ::  complicated_A12- angular_O4.4 shapes_O4.4 folded_A1.1.1 as_Z5[i9.2.1 if_Z5[i9.2.2 in_Z5 miniature_N3.2- crystalline_Z99 origami_Z99 ,_PUNC writhing_Z99 growths_N3.2+/A2.1 like_Z5 worm_L2mfn casts_K4/S5+c or_Z5 squeezed_M2 toothpaste._B4 ._PUNC
+s018 ::  fertilizer_F4/O1 for_Z5 algae_L3 which_Z8 then_N4 use_A1.5.1+[i10.2.1 up_A1.5.1+[i10.2.2 the_Z5 oxygen_O1.3 in_Z5 the_Z5 water_O1.2 during_Z5 their_Z8 rapid_N3.8+ growth_N3.2+/A2.1 ._PUNC
+s019 ::  The_Z5 universities_P1/H1c and_Z5 schools_P1/H1c are_A3+ probably_A7+ the_Z5 next_N4 major_A11.1+ growth_N3.2+/A2.1[i11.2.1 area_N3.2+/A2.1[i11.2.2 ._PUNC
+s020 ::  The_Z5 period_T1.3 of_Z5 growth_N3.2+/A2.1 under_Z5 the_Z5 Fatimids_Z99 was_Z5 checked_X2.4/A5.3 with_Z5 the_Z5 coming_M1 of_Z5 the_Z5 Crusaders_S8+/S2mf from_Z5 Europe_Z2 ._PUNC
+s021 ::  With_Z5 so_A13.3 much_N5+ tree_L3 growth_N3.2+/A2.1 over_T1.1.1[i12.3.1 the_T1.1.1[i12.3.2 years_T1.1.1[i12.3.3 ,_PUNC
+s022 ::  economies_I2.1 of_Z5 scale_N3.2 are_A3+ very_A13.3 important_A11.1+ in_Z5 the_Z5 growth_N3.2+/A2.1 of_Z5 manufacturing_A1.1.1 trade_I2.2 ,_PUNC
+s023 ::  which_Z8 is_A3+ essentially_S6+ an_Z5 increase_N5+/A2.1 in_Z5 intra_I4/Z99c[i13.2.1 industry_I4/Z99c[i13.2.2 trade_I2.2 ,_PUNC The_Z5 growth_N3.2+/A2.1 of_Z5 the_Z5 capitalist_I1.1/G1.2 economy_I2.1 transformed_A2.1+ agriculture_F4 by_Z5 its_Z8 massive_N3.2+ demand_Q2.2 ._PUNC
+s024 ::  industrial_I4 and_Z5 regional_M7 investment_I1.1 in_Z5[i14.3.1 order_Z5[i14.3.2 to_Z5[i14.3.3 secure_A9+ stable_A2.1- and_Z5 coordinated_S7.1+ growth_N3.2+/A2.1 throughout_Z5 the_Z5 Community_S5+c ._PUNC
+s025 ::  How_Z5 are_Z5 they_Z8mfn going_T1.1.3[i16.2.1 to_T1.1.3[i16.2.2 fill_N5.1+ key_A11.1+ positions_M6 to_Z5 perpetuate_T2++ growth_N3.2+/A2.1 ?_PUNC 
+s026 :: Britain_Z2 will_T1.1.3 buck_I1 the_Z5 global_W3 recessionary_I2.1/N5- trend_A6.2+ next_T1.1.3[i2.2.1 year_T1.1.3[i2.2.2 with_Z5 growth_N3.2+/A2.1 of_Z5 around_A13.4 1.1pc_Z99 ._PUNC
+s027 :: With_Z5 the_Z5 continuing_T2++ growth_N3.2+/A2.1 of_Z5 specialisation_A4.2+ in_Z5 medicine_B3 ,_PUNC
+s028 :: the_Z5 Second_N4 Law_G2.1 of_Z5 Thermodynamics_Z99 is_A3+ no_Z6 more_A13.3 violated_A1.1.2 by_Z5 evolution_A2.1+ than_Z5 it_Z8 is_Z5 violated_A1.1.2 by_Z5 the_Z5 growth_N3.2+/A2.1 of_Z5 a_Z5 baby_T3--/S2mf ._PUNC
+s029 :: Some_N5 cells_B1 respond_S1.1.2+ to_Z5 transforming_A2.1+ growth_N3.2+/A2.1[i5.2.1 factor_N3.2+/A2.1[i5.2.2 ._PUNC
+s030 :: One_N1 major_A11.1+ problem_A12- affecting_A2.1+ growth_N3.2+/A2.1 is_A3+ that_Z5 residential_H4 accommodation_H4 in_Z5 the_Z5 City_M7/I2.1c is_A3+ expensive_I1.3+ and_Z5 in_Z5 short_T1.3- supply_A9- ._PUNC
+s031 :: given_A9- the_Z5 growth_N3.2+/A2.1 of_Z5 cabinet_H5 government_G1.1c ,_PUNC the_Z5 potential_A7+ for_Z5 government_G1.1c to_Z5 seek_X2.4 and_Z5 receive_A9+ such_Z5 powers_S7.1+ is_A3+ significantly_A11.1+ greater_A5.1++ now_T1.1.2 ._PUNC
+s032 :: The_Z5 capital_I1.1 increase_N5+/A2.1 is_A3+ to_Z5 help_S8+ speed_N3.8+ the_Z5 investment_I1.1 programme_X7+ and_Z5 to_Z5 achieve_A9+ Olivetti_Z3c 's_Z5 growth_N3.2+/A2.1 targets_X7+ ._PUNC
+s033 :: to_Z5 withstand_S1.2.5+ the_Z5 pressures_N3.5 of_Z5 wind_W4 and_Z5 weather_W4 ,_PUNC and_Z5 the_Z5 galloping_M1/N3.8+/L2 growth_N3.2+/A2.1 of_Z5 all_N5.1+ things_O2 bright_O4.3 and_Z5 buyable_Z99 ?_PUNC
+s034 :: much_N5+ of_Z5 the_Z5 growth_N3.2+/A2.1 of_Z5 the_Z5 island_W3 has_Z5 occurred_A2.1+ through_Z5 intrusive_X7- igneous_W1 activity_A1.1.1 rather_Z5[i7.2.1 than_Z5[i7.2.2 the_Z5 extrusion_A1.1.1 of_Z5 lava_W3 on_Z5 the_Z5 surface_M6 ._PUNC
+s035 :: India_Z2 's_Z5 growth_N3.2+/A2.1 rate_N3.8 has_Z5 slowed_N3.8- by_Z5 only_A14 1.15_N5[i8.3.1 per_N5[i8.3.2 cent_N5[i8.3.3 over_T1.1.1[i10.5.1 the_T1.1.1[i10.5.2 last_T1.1.1[i10.5.3 ten_T1.1.1[i10.5.4 years_T1.1.1[i10.5.5 ,_PUNC
+s036 :: Growth_N3.2+/A2.1 may_A7+ be_A3+ inevitable_A7+++ or_Z5 it_Z8 may_A7+ be_A3+ fun_E4.1+ ._PUNC
+s037 :: that_Z5 period_T1.3 has_Z5 also_N5++ had_A9+ a_Z5 period_T1.3 of_Z5 growth_N3.2+/A2.1 within_Z5 it_Z8 ,_PUNC
+s038 :: a_Z5 standard_A6.2+ assessment_X2.4/A5 period_T1.3 for_Z5 major_A11.1+ road_M3 schemes_X7+ ,_PUNC twenty_N1[i13.2.1 four_N1[i13.2.2 fatalities_L1- under_Z5 high_N3.7+ traffic_M3 growth_N3.2+/A2.1 conditions_O4.1 ,_PUNC twenty_N1 fatalities_L1- under_Z5 low_N3.7- traffic_M3 growth_N3.2+/A2.1 ._PUNC

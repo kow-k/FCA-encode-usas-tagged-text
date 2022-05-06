@@ -30,7 +30,7 @@ or
 
 # sample usas-tagged-text.txt files
 
-[sample 1](usas-tagged-text-sample1.txt)
+[sample 1 (tagged in horizontal mode)](usas-tagged-text-in-hmode-sample1.txt)
 
 # USAS tools
 
