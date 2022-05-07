@@ -4,33 +4,40 @@
 
 # scripts
 
-[encode-usas-tagged-text-in-hmode.awk (to process horizontally USAS tagged text)](encode-usas-tagged-text-in-hmode.awk)
+[encode-usas-tagged-text-hmode.awk (to process horizontally USAS tagged text)](encode-usas-tagged-text-hmode.awk)
 
-[encode-usas-tagged-text-in-vmode.awk (to process vertically USAS tagged text)](encode-usas-tagged-text-in-vmode.awk)
+[encode-usas-tagged-text-vmode.awk (to process vertically USAS tagged text)](encode-usas-tagged-text-vmode.awk)
+
+
 
 ## usage
 
 Run with a (g)awk by issuing:
 
-`(g)awk encode-usas-tagged-text-in-hmode.awk SOURCE_FILE > CSV_FILE`
+`(g)awk encode-usas-tagged-text-hmode.awk SOURCE_FILE > CSV_FILE`
 
 or
 
-`(g)awk encode-usas-tagged-text-in-vmode.awk SOURCE_FILE > CSV_FILE`
+`(g)awk encode-usas-tagged-text-vmode.awk SOURCE_FILE > CSV_FILE`
 
 where `SOURCE_FILE is the input` and `CSV_FILE` is the output.
 
-Or, alternatively, you can make the script executable by `chmod +x encode-usas-tagged-text-in-hmode.awk` or `chmod +x encode-usas-tagged-text-in-vmode.awk` and then,
+Or, alternatively, you can make the script executable by `chmod +x encode-usas-tagged-text-hmode.awk` or `chmod +x encode-usas-tagged-text-vmode.awk` and then,
 
-`./encode-usas-tagged-text-in-hmode.awk SOURCE_FILE > CSV_FILE`
+`./encode-usas-tagged-text-hmode.awk SOURCE_FILE > CSV_FILE`
 
 or
 
 `./encode-usas-tagged-text-in-vmode.awk SOURCE_FILE > CSV_FILE`
 
+# converter of vertial mode tagged text to horizontal mode tagged text
+
+[USAS taggin mode converter](convert-usas-vertical-to-horizontal-tag.pl)
+
 # sample usas-tagged-text.txt files
 
 [sample 1 (tagged in horizontal mode)](usas-tagged-text-in-hmode-sample1.txt)
+
 
 # USAS tools
 
