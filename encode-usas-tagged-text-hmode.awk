@@ -13,11 +13,12 @@
 ##   added missed smart_print(S9)
 ## 2020/07/19: added gensub(..) to handle variabel objname
 ## 2022/04/25: 1) revised objname-attr separator, 2) renamed "E2:Liking" to "E2:(Dis)liking"
+## 2022/05/08: Fixed obj-attr mismatch
 
 # set up
-BEGIN { debug = 0; summarized = 0; raw = 0; detailed = 0; theta = 1; include_Z = 0;
-	header = "A1:Action,A2:Affect,A3:Being,A4:Classification,A5:Evaluation,A6:Comparing,A7:Definite,A8:Seem,A9:Possesion,A10:Open/Close,A11:Important,A12:Easy/Difficult,A13:Degree,A14:Exclusive/Particular,A15:Safety/Danger,B1:Physiology,B2:Health/Disease,B3:Medical,B4:Cleaning,B5:Clothes,C1:Arts/Crafts,E1:General,E2:(Dis)liking,E3:Calm/Angry,E4:Happy/Sad,E5:Fear/Bravery,E6:Worry,F1:Food,F2:Drinks,F3:Cigarettes/Drugs,F4:Farming/Horticulture,G1:Government,G2:Crime/Law,G3:Warfare,H1:Architecture,H2:Parts,H3:Areas,H4:Residence,H5:Furniture,I1:Money,I2:Business,I3:Work,I4:Industry,K1:Entertaiment,K2:Music,K3:Recording,K4:Drama/Theater,K5:Sports/Games,K6:Child_games/toys,L1:Life,L2:Creatures,L3:Plants,M1:Moving,M2:Putting/Taking,M3:Transport:land,M4:Transport:water,M5:Transport:air,M6:Location/Direction,M7:Places,M8:Remaining,N1:Numbers,N2:Mathematics,N3:Measurement,N4:Linear_order,N5:Quantities,N6:Frequencies,O1:Substances,O2:Objects,O3:Electricity,O4:Attributes,P1:Education,Q1:Communication,Q2:Speech_act,Q3:Grammar,Q4:Media,S1:Social_matter,S2:People,S3:Relationship,S4:Kin,S5:Group,S6:Obligation,S7:Power,S8:Helping/Hindering,S9:Religion/Supernatural,T1:Time,T2:Begin/End,T3:Oldness/Age,T4:Early/Late,W1:World,W2:Light,W3:Geography,W4:Weather,W5:Green_issue,X1:Psychology,X2:Mental_state/process,X3:Sensory,X4:Mental_object,X5:Attention,X6:Interest,X7:Wanting,X8:Trying,X9:Ability,Y1:Science/Technology,Y2:Information/Computing";
-	header2 = "A1:Action,A2:Affect,A3:Being,A4:Classification,A5:Evaluation,A6:Comparing,A7:Definite,A8:Seem,A9:Possesion,A10:Open/Close,A11:Important,A12:Easy/Difficult,A13:Degree,A14:Exclusive/Particular,A15:Safety/Danger,B1:Physiology,B2:Health/Disease,B3:Medical,B4:Cleaning,B5:Clothes,C1:Arts/Crafts,E1:General,E2:Liking,E3:Calm/Angry,E4:Happy/Sad,E5:Fear/Bravery,E6:Worry,F1:Food,F2:Drinks,F3:Cigarettes/Drugs,F4:Farming/Horticulture,G1:Government,G2:Crime/Law,G3:Warfare,H1:Architecture,H2:Parts,H3:Areas,H4:Residence,H5:Furniture,I1:Money,I2:Business,I3:Work,I4:Industry,K1:Entertaiment,K2:Music,K3:Recording,K4:Drama/Theater,K5:Sports/Games,K6:Child_games/toys,L1:Life,L2:Creatures,L3:Plants,M1:Moving,M2:Putting/Taking,M3:Transport:land,M4:Transport:water,M5:Transport:air,M6:Location/Direction,M7:Places,M8:Remaining,N1:Numbers,N2:Mathematics,N3:Measurement,N4:Linear_order,N5:Quantities,N6:Frequencies,O1:Substances,O2:Objects,O3:Electricity,O4:Attributes,P1:Education,Q1:Communication,Q2:Speech_act,Q3:Grammar,Q4:Media,S1:Social_matter,S2:People,S3:Relationship,S4:Kin,S5:Group,S6:Obligation,S7:Power,S8:Helping/Hindering,S9:Religion/Supernatural,T1:Time,T2:Begin/End,T3:Oldness/Age,T4:Early/Late,W1:World,W2:Light,W3:Geography,W4:Weather,W5:Green_issue,X1:Psychology,X2:Mental_state/process,X3:Sensory,X4:Mental_object,X5:Attention,X6:Interest,X7:Wanting,X8:Trying,X9:Ability,Y1:Science/Technology,Y2:Information/Computing,Z1:Unmatched_proper_noun,Z2:Personal_name,Z3:Other_proper_name,Z4:Discourse_bin,Z5:Grammatical_bin,Z6:Negative,Z7:If,Z8:Pronoun,Z9:Trashcan,Z99:Unmatched";
+BEGIN { debug = 0; strip_tags = 1; summarized = 0; raw = 0; detailed = 0; theta = 1; include_Z = 0;
+	header = ",A1:Action,A2:Affect,A3:Being,A4:Classification,A5:Evaluation,A6:Comparing,A7:Definite,A8:Seem,A9:Possesion,A10:Open/Close,A11:Important,A12:Easy/Difficult,A13:Degree,A14:Exclusive/Particular,A15:Safety/Danger,B1:Physiology,B2:Health/Disease,B3:Medical,B4:Cleaning,B5:Clothes,C1:Arts/Crafts,E1:General,E2:(Dis)liking,E3:Calm/Angry,E4:Happy/Sad,E5:Fear/Bravery,E6:Worry,F1:Food,F2:Drinks,F3:Cigarettes/Drugs,F4:Farming/Horticulture,G1:Government,G2:Crime/Law,G3:Warfare,H1:Architecture,H2:Parts,H3:Areas,H4:Residence,H5:Furniture,I1:Money,I2:Business,I3:Work,I4:Industry,K1:Entertaiment,K2:Music,K3:Recording,K4:Drama/Theater,K5:Sports/Games,K6:Child_games/toys,L1:Life,L2:Creatures,L3:Plants,M1:Moving,M2:Putting/Taking,M3:Transport:land,M4:Transport:water,M5:Transport:air,M6:Location/Direction,M7:Places,M8:Remaining,N1:Numbers,N2:Mathematics,N3:Measurement,N4:Linear_order,N5:Quantities,N6:Frequencies,O1:Substances,O2:Objects,O3:Electricity,O4:Attributes,P1:Education,Q1:Communication,Q2:Speech_act,Q3:Grammar,Q4:Media,S1:Social_matter,S2:People,S3:Relationship,S4:Kin,S5:Group,S6:Obligation,S7:Power,S8:Helping/Hindering,S9:Religion/Supernatural,T1:Time,T2:Begin/End,T3:Oldness/Age,T4:Early/Late,W1:World,W2:Light,W3:Geography,W4:Weather,W5:Green_issue,X1:Psychology,X2:Mental_state/process,X3:Sensory,X4:Mental_object,X5:Attention,X6:Interest,X7:Wanting,X8:Trying,X9:Ability,Y1:Science/Technology,Y2:Information/Computing";
+	header2 = ",A1:Action,A2:Affect,A3:Being,A4:Classification,A5:Evaluation,A6:Comparing,A7:Definite,A8:Seem,A9:Possesion,A10:Open/Close,A11:Important,A12:Easy/Difficult,A13:Degree,A14:Exclusive/Particular,A15:Safety/Danger,B1:Physiology,B2:Health/Disease,B3:Medical,B4:Cleaning,B5:Clothes,C1:Arts/Crafts,E1:General,E2:Liking,E3:Calm/Angry,E4:Happy/Sad,E5:Fear/Bravery,E6:Worry,F1:Food,F2:Drinks,F3:Cigarettes/Drugs,F4:Farming/Horticulture,G1:Government,G2:Crime/Law,G3:Warfare,H1:Architecture,H2:Parts,H3:Areas,H4:Residence,H5:Furniture,I1:Money,I2:Business,I3:Work,I4:Industry,K1:Entertaiment,K2:Music,K3:Recording,K4:Drama/Theater,K5:Sports/Games,K6:Child_games/toys,L1:Life,L2:Creatures,L3:Plants,M1:Moving,M2:Putting/Taking,M3:Transport:land,M4:Transport:water,M5:Transport:air,M6:Location/Direction,M7:Places,M8:Remaining,N1:Numbers,N2:Mathematics,N3:Measurement,N4:Linear_order,N5:Quantities,N6:Frequencies,O1:Substances,O2:Objects,O3:Electricity,O4:Attributes,P1:Education,Q1:Communication,Q2:Speech_act,Q3:Grammar,Q4:Media,S1:Social_matter,S2:People,S3:Relationship,S4:Kin,S5:Group,S6:Obligation,S7:Power,S8:Helping/Hindering,S9:Religion/Supernatural,T1:Time,T2:Begin/End,T3:Oldness/Age,T4:Early/Late,W1:World,W2:Light,W3:Geography,W4:Weather,W5:Green_issue,X1:Psychology,X2:Mental_state/process,X3:Sensory,X4:Mental_object,X5:Attention,X6:Interest,X7:Wanting,X8:Trying,X9:Ability,Y1:Science/Technology,Y2:Information/Computing,Z1:Unmatched_proper_noun,Z2:Personal_name,Z3:Other_proper_name,Z4:Discourse_bin,Z5:Grammatical_bin,Z6:Negative,Z7:If,Z8:Pronoun,Z9:Trashcan,Z99:Unmatched";
 }
 
 ## main
@@ -29,12 +30,22 @@ BEGIN { debug = 0; summarized = 0; raw = 0; detailed = 0; theta = 1; include_Z =
 	record = $0
 	if (debug) { print "\n#processing:", record }
 	# get obj name
-	if ($1 ~ /^[A-Za-z0-9.+]+.*/ ) {
-		#obj = gensub(/^([A-Za-z0-9.+]+).*/, "\\1", "g")
-		obj = gensub(/^(.+)\W*::\W*.+/, "\\1", "g") # "::" serves as objname-attr separator
+	if (record ~ /^[^:]+:+[^:]+/) {
+		if ($1 ~ /^[A-Za-z0-9.+]+.*/ ) {
+			# "::" serves as objname-attr separator
+			obj = gensub(/^(.+)\W*::\W*.+/, "\\1", "g", record)
 		}
-	else
-		if (length(obj) == 0) { obj = "Obj" NR } # obj = "Obj" NR
+	} else {
+		if (strip_tags == 1) {
+			#obj = "X"
+			obj = gensub(/([^_]+)_?[^_]+ +([^_]+)_?[^_]+ +([^_]+)_?[^_]+ *([^_]*)_?[^_]*.*/,
+		"\\1 \\2 \\3 \\4", "1-", record) # strips all "_ABC" tags
+			obj = "s" NR ": " obj "..."
+		} else {
+			obj = "Obj" NR # obj = "Obj" NR
+		}
+	}
+	#
 	printf obj # This needs to come here
 	# refresh the records
 	initialize()
