@@ -9,7 +9,6 @@
 [encode-usas-vertically-tagged-text.awk (to process vertically USAS tagged text)](encode-usas-vertically-tagged-text.awk)
 
 
-
 ## usage
 
 Run with a (g)awk by issuing:
@@ -32,7 +31,7 @@ or
 
 # converter of vertial mode tagged text to horizontal mode tagged text
 
-[USAS taggin mode converter](convert-usas-vertical-to-horizontal-tag.pl)
+[USAS tagging mode converter](convert-usas-vertical-to-horizontal-tags.pl)
 
 # sample usas-tagged-text.txt files
 
