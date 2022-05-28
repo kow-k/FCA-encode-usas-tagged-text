@@ -13,11 +13,11 @@
 
 Run with a (g)awk by issuing:
 
-`(g)awk encode-usas-horizontally-tagged-text.awk SOURCE_FILE > CSV_FILE`
+`(g)awk -f encode-usas-horizontally-tagged-text.awk SOURCE_FILE > CSV_FILE`
 
 or
 
-`(g)awk encode-usas-vertically-tagged-text.awk SOURCE_FILE > CSV_FILE`
+`(g)awk -f encode-usas-vertically-tagged-text.awk SOURCE_FILE > CSV_FILE`
 
 where `SOURCE_FILE is the input` and `CSV_FILE` is the output.
 
